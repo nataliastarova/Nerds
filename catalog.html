@@ -5,20 +5,136 @@
     <title>Nerds</title>
 </head>
 <body>
-  <nav class="main-navigation">
-    <a class="main-header-logo" href="index.html">
-      <img src="img/logo.svg" width="154" height="64" alt="Логотип дизайн-студии Нёрдз">
-    </a>
-    <ul class="site-navigation">
-      <li><a href="#">Студия</a></li>
-      <li><a href="#">Клиенты</a></li>
-      <li><a href="#">Магазин</a></li>
-      <li><a href="#">Контакты</a></li>
-    </ul>
-    <ul class="user-navigation">
-      <li><a href="#">Корзина</a></li>
-    </ul>
-  </nav>
+  <header>
+    <nav class="main-navigation">
+      <a class="main-header-logo" href="index.html">
+        <img src="img/logo.svg" width="154" height="64" alt="Логотип дизайн-студии Нёрдз">
+      </a>
+      <ul class="site-navigation">
+        <li><a href="#">Студия</a></li>
+        <li><a href="#">Клиенты</a></li>
+        <li class="site-navigation-current"><a href="#">Магазин</a></li>
+        <li><a href="#">Контакты</a></li>
+      </ul>
+      <ul class="user-navigation">
+        <li><a href="#">Корзина</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1 class="page-title">Магазин готовых шаблонов</h1>
+    <section class="filters">
+      <h2 class="visually-hidden">Фильтр товаров</h2>
+      <!-- Здесь будет форма -->
+    </section>
+    <section class="catalog">
+      <h2 class="visually-hidden">Каталог товаров</h2>
+      <ul class="catlog-list">
+        <li class="catalog-item">
+          <h3 class="visually-hidden">Информационный сайт  для туристов Sedona</h3>
+          <img src="img.png" width="267" height="267" alt="Макет информационного сайта для туристов Sedona">
+          <div class="item-price">
+            <h4 class="item-title">Sedona</h4>
+            <p>Информационный сайт
+              для туристов</p>
+            <a class="button button-item" href="catalog-item.html">9 900 руб.</a>
+          </div>
+        </li>
+        <li class="catalog-item">
+          <h3 class="visually-hidden">Продуктовый лендинг приложения для iOS и Android PINK APP</h3>
+          <img src="img.png" width="267" height="267" alt="Макет продуктового лендинга для iOS и Android PINK APP">
+          <div class="item-price">
+            <h4 class="item-title">Pink App</h4>
+            <p>Продуктовый лендинг
+              приложения для iOS и Android</p>
+            <a class="button button-item" href="catalog-item.html">9 900 руб.</a>
+          </div>
+        </li>
+        <li class="catalog-item">
+          <h3 class="visually-hidden">Сайт салона красоты для мужчин BARBERSHOP</h3>
+          <img src="img.png" width="267" height="267" alt="Макет сайта салона красоты для мужчин BARBERSHOP">
+          <div class="item-price">
+            <h4 class="item-title">Barbershop</h4>
+            <p>Сайт салона красоты.Для мужчин, да.</p>
+            <a class="button button-item" href="catalog-item.html">9 900 руб.</a>
+          </div>
+        </li>
+        <li class="catalog-item">
+          <h3 class="visually-hidden">Интернет-магазин вязаных игрушек MISHKA</h3>
+          <img src="img.png" width="267" height="267" alt="Макет интернет-магазина вязаных игрушек MISHKA">
+          <div class="item-price">
+            <h4 class="item-title">MISHKA</h4>
+            <p>Интернет-магазин
+              вязаных игрушек</p>
+            <a class="button button-item" href="catalog-item.html">9 900 руб.</a>
+          </div>
+        </li>
+        <li class="catalog-item">
+          <h3 class="visually-hidden">Лендинг курсов повышения квалификации A Plus</h3>
+          <img src="img.png" width="267" height="267" alt="Макет лендинга курсов повышения квалификации">
+          <div class="item-price">
+            <h4 class="item-title">A Plus</h4>
+            <p>Лендинг курсов повышения квалификации</p>
+            <a class="button button-item" href="catalog-item.html">9 900 руб.</a>
+          </div>
+        </li>
+        <li class="catalog-item">
+          <h3 class="visually-hidden"> Промо-сайт производителя
+            крафтового кваса КВАСТ</h3>
+          <img src="img.png" width="267" height="267" alt="Макет промо-сайта производителя
+        крафтового кваса КВАСТ">
+          <div class="item-price">
+            <h4 class="item-title">КВАСТ</h4>
+            <p> Промо-сайт производителя
+              крафтового кваса</p>
+            <a class="button button-item" href="catalog-item.html">9 900 руб.</a>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="pagination">
+      <ul class="pagination-list">
+        <li class="pagination-item pagination-item-current"><a>1</a></li>
+        <li class="pagination-item"><a href="#">2</a></li>
+        <li class="pagination-item"><a href="#">3</a></li>
+        <li class="pagination-item"><a href="#">Вперед</a></li>
+      </ul>
+    </section>
+  </main>
+  
+  <section class="map">
+    <h2 class="visually-hidden">Как до нас добраться</h2>
+    <img src="img.png" width="1146" height="124" alt="Карта">
+    <section class="contacts">
+      <h3 class="visually-hidden">Контактная информация</h3>
+      <p class="contacts-title"><b>NЁRDS DESIGN STUDIO</b></p>
+      <p class="addres">191186, Санкт-Петербург,
+        ул. Б. Конюшенная, д. 19/8</p>
+      <p class="phone">тел. +7 (812) 275-75-75</p>
+      <a class="button contacts-button" href="#">Форма обратной связи</a>
+    </section>
+  </section>
+
+  <footer>
+    <div class="footer-social">
+      <ul class="footer-social-list">
+        <li>
+          <a class="social-button" href="#" aria-label="Следите за нами Вконтакте">VKontakte</a>
+        </li>
+        <li>
+          <a class="social-button" href="#" aria-label="Следите за нами в Facebook">Facebook</a>
+        </li>
+        <li>
+          <a class="social-button" href="#" aria-label="Следите за нами в Instagram">Instagram</a>
+        </li>
+      </ul>
+    </div>
+    <div class="offer">
+      <h3>Давайте дружить, это выгодно!</h3>
+      <p>Скидка 10% для друзей из социальных сетей.</p>
+    </div>
+  </footer>
 
 </body>
 </html>
