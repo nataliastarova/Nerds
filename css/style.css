@@ -39,7 +39,7 @@ a {
   color: #e07476;
   background-color: #d7373b;
 }
-
+/*ХЭДЭР*/
 .main-navigation {
   font-size: 16px;
   line-height: 30px;
@@ -70,6 +70,7 @@ a {
   color: #bdbdbd;
 }
 
+/*СЛАЙДЕР*/
 .main-slider {
   background-color: #eeeeee;
 }
@@ -86,8 +87,10 @@ a {
   font-size: 55px;
   line-height: 55px;
   font-weight: 500;
+  color: #000000;
 }
 
+/*НАШИ ПРЕИМУЩЕСТВА*/
 .feature-list {
   list-style: none;
 }
@@ -101,4 +104,224 @@ a {
   line-height: 30px;
   font-weight: bold;
   color: #000000;
+}
+
+/*О НАС*/
+.what-we-can {
+  text-align: left;
+}
+
+.what-we-can h3 {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.order {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.orders-list {
+  list-style: none;
+}
+
+.qualities-title {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.qualities-percentages-list,
+.qualities-list{
+  list-style: none;
+}
+
+.qualities-percentages-list {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.qualities-list {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+/*ПАРТНЕРЫ*/
+.partners-list {
+  list-style: none;
+}
+
+/*СТРАНИЦА КАТАЛОГА*/
+.site-navigation-current a {
+  border-bottom: 1px solid #fb565a;
+}
+
+/*MAIN catalog*/
+.page-title {
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: 700;
+  color: #000000;
+
+  background-color: #eeeeee;
+}
+
+.catalog-list {
+  list-style: none;
+}
+
+.catalog-item {
+  border: 1px solid #e5e5e5;
+}
+
+.catalog-item:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+.item-price {
+  text-align: center;
+  background-color: #eeeeee;
+}
+
+.item-title {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.item-price p {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.pagination-list {
+  list-style: none;
+}
+
+.pagination-item a {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #000000;
+
+  background-color: #eeeeee ;
+}
+
+.pagination-item a:hover,
+.pagination-item a:focus,
+.pagination-item a:active {
+  background-color: #dfdfdf;
+}
+
+.pagination-item-current a {
+  color: #000000;
+
+  background-color: #ffffff;
+  border: 3px solid #dbdbdb;
+}
+
+/*КОНТАКТЫ*/
+.contacts-title {
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.address {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+/*FOOTER*/
+.footer-social-list {
+  list-style: none;
+}
+
+.offer {
+  text-align: left;
+}
+
+.offer h3 {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.offer p {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+/*MODAL WRITE_US*/
+.write-us-title {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.user-name-title{
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.user-email-title {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.feedback-title {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #000000;
+}
+.feedback-item input,
+.feedback-item textarea {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #b1b1b1;
+
+  border: 2px solid #d7dcde;
+}
+
+.write-us-form input[type="text"],
+.write-us-form textarea {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #b1b1b1;
+
+  border: 2px solid #d7dcde;
+}
+/*почему-то не работает изменение текста при наведении*/
+.write-us-form input:hover,
+.write-us-form textarea:hover {
+  border-color: #b4b9bb;
+}
+
+.write-us-form input:focus,
+.write-us-form textarea:focus {
+  color: #444444;
+  border-color: #000000;
 }
