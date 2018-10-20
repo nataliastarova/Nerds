@@ -10,6 +10,11 @@ body {
   text-transform: none;
 
   background-color: #ffffff;
+
+  /* Временно для сетки */
+  /*background-image: url("img/nerds-index.jpg");*/
+  /*background-size: 1372px auto;*/
+  /*background-repeat: no-repeat;*/
 }
 
 a {
@@ -353,4 +358,84 @@ a {
 .write-us-form textarea:focus {
   color: #444444;
   border-color: #000000;
+}
+
+/* ДЛЯ СЕТКИ*/
+/*.site-wrapper {*/
+  /*width: 1160px;*/
+  /*margin: 0 auto;*/
+  /*padding: 0;*/
+/*}*/
+
+header {
+  outline: 1px dotted red;
+}
+
+.main-header {
+
+  margin-bottom: 0;
+  background-color: #eeeeee;
+  /* Временно для сетки */
+  /*min-height: 120px;*/
+}
+
+.main-navigation {
+  display: flex;
+  align-items: baseline;
+  width: 1160px;
+  margin: 0 auto;
+  padding: 0;
+  padding-top: 50px;
+  /* Временно для сетки */
+  outline: 1px solid orange;
+  /*min-height: 120px;*/
+}
+
+.main-header-logo {
+  width: 160px;
+  height: 65px;
+  margin: 0;
+  margin-right: 200px;
+  padding: 0;
+
+  /* Временно для сетки */
+  /*display: block;*/
+}
+
+.site-navigation {
+  display: flex;
+
+  margin: 0;
+  margin-right: 240px;
+  padding: 0;
+
+  list-style: none;
+
+  /* Временно для сетки */
+  /*min-height: 70px;*/
+  outline: 1px solid orange;
+}
+
+.site-navigation li {
+  margin-right: 44px;
+}
+
+.site-navigation li:last-child {
+  margin-right: 0px;
+}
+
+.user-navigation {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+  /* Временно для сетки */
+  /*min-height: 70px;*/
+  outline: 1px solid orange;
+}
+
+.user-navigation li {
+  margin: 0;
+  padding: 0;
+  padding-left: 46px;
 }
