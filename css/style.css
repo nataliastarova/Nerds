@@ -460,9 +460,12 @@ header {
 .advantages {
   margin: 0;
   padding: 0;
+  margin-bottom: 80px;
+
   min-height: 350px;
   list-style: none;
   outline: 1px solid orange;
+  border-bottom: 1px solid #eeeeee;
 }
 
 .feature-list {
@@ -512,6 +515,104 @@ header {
   padding: 16px 40px;
   /*padding-top: 16px;*/
   /*padding-bottom: 16px;*/
-  
+}
 
+.about-us {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  
+  list-style: none;
+  outline: 1px solid orange;
+  border-top: 1px solid #eeeeee;
+}
+
+.what-we-can {
+  display: block;
+  width: 660px;
+  padding: 0;
+  margin: 0;
+  margin-right: 140px;
+  outline: 1px solid yellow;
+}
+
+.what-we-can h3 {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 35px;
+}
+
+.what-we-can p {
+  padding: 0;
+  margin: 0;
+}
+
+.what-we-can .order {
+  padding: 0;
+  margin: 0;
+  margin-top: 38px;
+}
+
+.orders-list {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  margin-top: 25px;
+  padding-left: 35px;
+  outline: 1px solid green;
+}
+
+.orders-item {
+  padding: 0;
+  padding-right: 5px;
+  margin: 0;
+  margin-bottom: 23px;
+  outline: 1px solid blue;
+}
+
+.our-qualities {
+  display: block;
+  width: 360px;
+  padding: 0;
+  margin: 0;
+
+  outline: 1px solid yellow;
+}
+
+.qualities-title {
+  padding: 0;
+  margin: 0;
+  margin-top: 30px;
+  padding-left: 15px;
+  padding-right: 5px;
+}
+
+.qualities-percentages-list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  margin-top: 40px;
+}
+
+.qualities-percentages-list li {
+  padding: 0;
+  margin: 0;
+  margin-right: 20px;
+}
+.qualities-percentages-list span {
+  font-size: 28px;
+}
+
+.qualities-list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  margin-top: 15px;
+}
+
+.qualities-list li {
+  padding: 0;
+  margin: 0;
+  margin-right: 26px;
 }
