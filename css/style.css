@@ -453,8 +453,8 @@ header {
 .main {
   outline: 1px dotted red;
 }
-.main-slider {
 
+.main-slider {
 }
 
 .advantages {
@@ -521,10 +521,11 @@ header {
   display: flex;
   padding: 0;
   margin: 0;
-  
+  margin-bottom: 80px;
+
   list-style: none;
   outline: 1px solid orange;
-  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 
 .what-we-can {
@@ -608,7 +609,7 @@ header {
   display: flex;
   padding: 0;
   margin: 0;
-  margin-top: 15px;
+  margin-top: 13px;
 }
 
 .qualities-list li {
@@ -616,3 +617,65 @@ header {
   margin: 0;
   margin-right: 26px;
 }
+
+.partners {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 80px;
+  outline: 1px solid orange;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.partners-list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  outline: 1px solid yellow;
+}
+
+.partners-list li {
+  padding: 0;
+  margin: 0;
+  outline: 1px solid green;
+}
+
+.html-academy {
+  width: 280px;
+}
+
+.barbershop {
+  width: 300px;
+}
+
+.pink {
+  width:300px;
+}
+
+.mishka {
+  width: 280px;
+}
+
+.map {
+  min-height: 420px;
+  background-image: url(../img/map.jpg);
+
+
+
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  min-height: 310px;
+
+  margin: 0;
+  padding-left: 50px;
+  padding-top: 56px;
+  padding-bottom: 47px;
+  padding-right: 50px;
+}
+
+
+
+.
