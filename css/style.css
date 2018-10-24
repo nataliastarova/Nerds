@@ -44,6 +44,21 @@ a {
   color: #e07476;
   background-color: #d7373b;
 }
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 /*ХЭДЭР*/
 .main-navigation {
   font-size: 16px;
@@ -460,7 +475,8 @@ header {
 .advantages {
   margin: 0;
   padding: 0;
-  margin-bottom: 80px;
+  padding-bottom: 80px;
+  margin-bottom: 40px;
 
   min-height: 350px;
   list-style: none;
@@ -521,7 +537,7 @@ header {
   display: flex;
   padding: 0;
   margin: 0;
-  margin-bottom: 80px;
+  margin-bottom: 70px;
 
   list-style: none;
   outline: 1px solid orange;
@@ -540,7 +556,8 @@ header {
 .what-we-can h3 {
   padding: 0;
   margin: 0;
-  margin-bottom: 35px;
+  padding-top: 35px;
+  margin-bottom: 30px;
 }
 
 .what-we-can p {
@@ -551,7 +568,7 @@ header {
 .what-we-can .order {
   padding: 0;
   margin: 0;
-  margin-top: 38px;
+  margin-top: 40px;
 }
 
 .orders-list {
@@ -621,6 +638,8 @@ header {
 .partners {
   padding: 0;
   margin: 0;
+  padding-bottom: 40px;
+  padding-top: 27px;
   margin-bottom: 80px;
   outline: 1px solid orange;
   border-bottom: 1px solid #eeeeee;
@@ -656,26 +675,212 @@ header {
 }
 
 .map {
-  min-height: 420px;
+  position: relative;
+  height: 420px;
+  outline: 2px solid #a82145;
   background-image: url(../img/map.jpg);
-
-
-
 }
 
 .contacts {
+  position: absolute;
+  top: 54px;
+  left: 50%;
+
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
   width: 320px;
-  min-height: 310px;
 
   margin: 0;
+  margin-left: -580px;
   padding-left: 50px;
-  padding-top: 56px;
-  padding-bottom: 47px;
   padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 87px;
+
+  background-color: #ffffff;
 }
 
+.contacts-title {
+  padding: 0;
+  padding-right: 5px;
+  margin: 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 
+.address {
+  padding: 0;
+  margin: 0;
+  margin-top: 23px;
+  margin-bottom: 0;
+  padding-right: 15px;
+}
 
-.
+.phone {
+  margin:0;
+  padding: 0;
+  margin-top: 16px;
+  margin-bottom: 35px;
+  padding-right: 15px;
+}
+
+.contacts-button {
+  display: block;
+  box-sizing: border-box;
+  width: 220px;
+  padding: 16px 40px;
+  /*padding-top: 16px;*/
+  /*padding-bottom: 16px;*/
+}
+
+.main-footer {
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
+
+  outline: 1px solid red;
+}
+
+.footer-social {
+  width: 380px;
+  padding: 0px;
+  margin: 0px;
+  margin-right: 20px;
+  padding-top: 100px;
+  outline: 1px solid orange;
+}
+
+.footer-social-list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  outline: 1px solid yellow;
+}
+
+.footer-social-list li {
+
+}
+
+.offer {
+  display: block;
+  margin: 0;
+  padding: 0;
+  padding-top: 72px;
+}
+
+.offer h3 {
+  padding: 0;
+  padding-right: 5px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.offer p {
+  padding: 0;
+  padding-right: 5px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.write-us {
+  display: block;
+  width: 960px;
+  box-shadow: 0 20px 40px 0 rgba(0,0,0,.75);
+  outline: 1px dotted red;
+}
+
+.write-us-form {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 960px;
+  margin: 0;
+  padding-top: 72px;
+  padding-right: 100px;
+  padding-bottom: 85px;
+  padding-left: 100px;
+  outline: 1px dotted orange;
+}
+
+.write-us-title {
+  padding: 0;
+  margin: 0;
+}
+
+.modal-close {
+  width: 28px;
+  height: 24px;
+
+  padding: 0;
+  margin: 0;
+}
+
+.login-wrapper {
+  display: flex;
+  box-sizing: border-box;
+  width: 760px;
+  margin: 0;
+  padding: 0;
+  margin-top: 50px;
+  margin-bottom: 37px;
+  outline: 1px dotted yellow;
+}
+
+.feedback-item {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 1px dotted green;
+}
+
+.login-wrapper p {
+  width: 360px;
+  padding: 0;
+  margin: 0;
+  outline: 1px dotted green;
+}
+
+.login-wrapper p:first-child {
+  margin-right: 40px;
+}
+
+.user-name-title {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.user-email-title {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.user-name,
+.user-email {
+  padding: 16px 15px;
+  margin: 0;
+}
+
+.feedback-title {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.feedback {
+  font-family: inherit;
+  padding: 16px 15px;
+  margin: 0;
+}
+
+.write-us-button {
+  width: 260px;
+  padding: 16px;
+  margin: 0;
+  margin-top: 47px;
+  text-align: center;
+}
