@@ -189,7 +189,7 @@
     </section>
   </section>
 
-  <footer>
+  <footer class="main-footer container">
     <div class="footer-social">
       <ul class="footer-social-list">
         <li>
@@ -214,14 +214,16 @@
     <form class="write-us-form" action="https://echo.htmlacademy.ru" method="post">
       <h3 class="write-us-title">Напишите нам</h3>
       <button class="modal-close" type="button">Закрыть</button>
-      <p class="feedback-item">
-        <label class="user-name-title" for="user-name-feedback">Ваше имя</label>
-        <input class="user-name" id="user-name-feedback" type="text" name="user-name" placeholder="Имя Фамилия" required>
-      </p>
-      <p class="feedback-item">
-        <label class="user-email-title" for="user-email-feedback">Ваш e-mail:</label>
-        <input class="user-email" id="user-email-feedback" type="text" name="user-email" placeholder="email@example.com" required>
-      </p>
+      <div class="login-wrapper">
+        <p class="feedback-item feedback-item-name">
+          <label class="user-name-title" for="user-name-feedback">Ваше имя:</label>
+          <input class="user-name" id="user-name-feedback" type="text" name="user-name" placeholder="Имя Фамилия" required>
+        </p>
+        <p class="feedback-item">
+          <label class="user-email-title" for="user-email-feedback">Ваш e-mail:</label>
+          <input class="user-email" id="user-email-feedback" type="text" name="user-email" placeholder="email@example.com" required>
+        </p>
+      </div>
       <p class="feedback-item">
         <label class="feedback-title" for="feedback-field">Текст письма:</label>
         <textarea class="feedback" id="feedback-field"  rows="7" name="feedback" placeholder="В свободной форме"></textarea>
