@@ -400,7 +400,7 @@ header {
   width: 1160px;
   margin: 0 auto;
   padding: 0;
-  padding-top: 50px;
+  /*padding-top: 50px;*/
   /* Временно для сетки */
   outline: 1px solid orange;
   /*min-height: 120px;*/
@@ -638,8 +638,6 @@ header {
 .partners {
   padding: 0;
   margin: 0;
-  padding-bottom: 40px;
-  padding-top: 27px;
   margin-bottom: 80px;
   outline: 1px solid orange;
   border-bottom: 1px solid #eeeeee;
@@ -653,25 +651,44 @@ header {
 }
 
 .partners-list li {
-  padding: 0;
-  margin: 0;
+  display: block;
+  box-sizing: border-box;
   outline: 1px solid green;
 }
 
-.html-academy {
+.html-academy  {
   width: 280px;
+  margin: 0;
+  padding-left: 30px;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 10px;
 }
 
 .barbershop {
   width: 300px;
+  margin: 0;
+  padding-left: 45px;
+  padding-top: 33px;
+  padding-right: 30px;
+  padding-bottom: 10px;
 }
 
 .pink {
   width:300px;
+  margin: 0;
+  padding-left: 60px;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 10px;
 }
 
 .mishka {
   width: 280px;
+  margin: 0;
+  padding: 0;
+  padding-top: 37px;
+  padding-left: 65px;
 }
 
 .map {
@@ -696,7 +713,7 @@ header {
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 50px;
-  padding-bottom: 87px;
+  padding-bottom: 47px;
 
   background-color: #ffffff;
 }
@@ -738,6 +755,7 @@ header {
   display: flex;
   margin: 0 auto;
   padding: 0;
+  padding-bottom: 47px;
 
   outline: 1px solid red;
 }
@@ -884,3 +902,64 @@ header {
   margin-top: 47px;
   text-align: center;
 }
+
+/*КАТАЛОГ*/
+.catalog-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filters {
+  width: 260px;
+
+  /* Временно для сетки */
+  min-height: 778px;
+}
+
+.catalog {
+  width: 760px;
+
+  /* Временно для сетки */
+  min-height: 2025px;
+}
+
+.catalog-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+
+  list-style: none;
+}
+
+.catalog-item {
+  width: 360px;
+  box-sizing: border-box;
+  margin-right: 40px;
+  margin-bottom: 33px;
+
+  /* Временно для сетки */
+  min-height: 285px;
+}
+
+.catalog-item:nth-child(2n) {
+  margin-right: 0;
+}
+
+.pagination {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  padding-left: 400px;
+  margin-bottom: 27px;
+}
+
+.pagination-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
