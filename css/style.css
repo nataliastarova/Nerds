@@ -45,16 +45,14 @@ a {
   background-color: #d7373b;
 }
 
-.visually-hidden:not(:focus):not(:active) {
+.visually-hidden {
   position: absolute;
+  clip: rect(0 0 0 0);
   width: 1px;
   height: 1px;
   margin: -1px;
   border: 0;
   padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
   overflow: hidden;
 }
 /*ХЭДЭР*/
@@ -186,13 +184,26 @@ a {
 }
 
 /*MAIN catalog*/
+.page-title-wrapper {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 55px;
+  background-color: #eeeeee;
+}
 .page-title {
+  display: flex;
+  box-sizing: border-box;
+  width: 1160px;
+  margin: 0 auto;
+
+  padding-top: 78px;
+  padding-bottom: 108px;
+  padding-left: 215px;
+  padding-right: 215px;
   font-size: 55px;
   line-height: 55px;
-  font-weight: 700;
+  font-weight: 500;
   color: #000000;
-
-  background-color: #eeeeee;
 }
 
 .filter fieldset {
@@ -385,7 +396,8 @@ header {
 }
 
 .main-header {
-
+  padding: 0;
+  margin: 0;
   margin-bottom: 0;
   background-color: #eeeeee;
   /* Временно для сетки */
@@ -905,6 +917,8 @@ header {
 .catalog-columns {
   display: flex;
   justify-content: space-between;
+  margin: 0;
+  padding: 0;
 }
 
 .filters {
@@ -912,6 +926,11 @@ header {
 
   /* Временно для сетки */
   min-height: 778px;
+}
+.filter fieldset {
+  margin: 0;
+  padding: 0;
+
 }
 
 .catalog {
@@ -942,6 +961,15 @@ header {
 
 .catalog-item:nth-child(2n) {
   margin-right: 0;
+}
+
+.item-header {
+  display: block;
+  width: 360px;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  background-color: #e9e9e9;
 }
 
 .pagination {
