@@ -498,7 +498,7 @@ header {
   margin: 0;
   padding: 0;
   padding-bottom: 80px;
-  margin-bottom: 40px;
+  margin-bottom: 38px;
 
   min-height: 350px;
   list-style: none;
@@ -585,7 +585,7 @@ header {
   display: flex;
   padding: 0;
   margin: 0;
-  margin-bottom: 70px;
+  margin-bottom: 48px;
 
   list-style: none;
   outline: 1px solid orange;
@@ -713,71 +713,77 @@ header {
 .partners-list li {
   position: relative;
   display: block;
+  width: 260px;
+  margin-top: 45px;
   box-sizing: border-box;
   outline: 1px solid green;
+
+
 }
 
 
 .html-academy  {
-  width: 280px;
   margin: 0;
+  margin-right: 40px;
   padding-left: 30px;
-  padding-top: 50px;
+  padding-top: 15px;
   padding-right: 30px;
   padding-bottom: 10px;
 }
 
 .barbershop {
-  width: 300px;
   margin: 0;
-  padding-left: 45px;
-  padding-top: 33px;
+  margin-right: 40px;
+  padding-top: 0px;
+  padding-left: 25px;
   padding-right: 30px;
   padding-bottom: 10px;
 }
 
 .pink {
-  width:300px;
   margin: 0;
-  padding-left: 60px;
-  padding-top: 50px;
+  margin-right: 40px;
+  padding-left: 35px;
+  padding-top: 20px;
   padding-right: 30px;
   padding-bottom: 10px;
 }
 
 .mishka {
-  width: 280px;
   margin: 0;
   padding: 0;
-  padding-top: 37px;
-  padding-left: 65px;
+  padding-left: 45px;
+  padding-top: 5px;
 }
 
-
-
-.partners-list li {
+.partner a{
   opacity: 0.2;
 }
 
-.partners-list li:hover {
+.partner a:hover {
   opacity: 1;
 }
 
-.partners-list:focus,
-.partners-list:active {
+.partner a:focus,
+.partner a:active {
   opacity: 0.1;
 }
 
 .partners-list li::before {
   content: "";
   position: absolute;
-  right: 30px;
+  right: -20px;
+  top: 15px;
   width: 2px;
   height: 52px;
   background-color: #eeeeee;
   opacity: 1;
   z-index: 1;
+}
 
+
+.partners-list li:last-child::before {
+ display: none;
 }
 
 .map {
