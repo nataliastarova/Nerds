@@ -860,12 +860,13 @@ header {
   padding: 0px;
   margin: 0px;
   margin-right: 20px;
-  padding-top: 100px;
+  padding-top: 70px;
   outline: 1px solid orange;
 }
 
 .footer-social-list {
   display: flex;
+
   padding: 0;
   margin: 0;
   outline: 1px solid yellow;
@@ -873,6 +874,63 @@ header {
 
 .footer-social-list li {
 
+  outline: 1px solid green;
+  box-sizing: border-box;
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  background-color: #e1e1e1;
+  padding: 0;
+  padding-left: auto;
+  padding-right: auto;
+  margin: 0px;
+  margin-right: 12px;
+}
+
+.vk-button {
+  display: inline-block;
+  margin: 0;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 27px;
+  padding-right: 26px;
+}
+
+.fb-button {
+  display: inline-block;
+  margin: 0;
+  padding-top: 28px;
+  padding-bottom: 29px;
+  padding-left: 34px;
+  padding-right: 33px;
+}
+
+.insta-button {
+  display: inline-block;
+  margin: 0;
+  padding-top: 28px;
+  padding-bottom: 29px;
+  padding-left: 27px;
+  padding-right: 26px;
+}
+
+.footer-social-list li:hover {
+  background-color: #e74246;
+
+}
+
+.footer-social-list li:focus {
+  background-color: #d7373b;
+  box-shadow: inset 0px 3px 0px rgba(0,0,0,0.3);
+}
+
+.social-button path,
+.social-button:hover path,
+.social-button:active path{
+  fill: #ffffff;
+}
+.social-button:focus path{
+  fill: #e37376;
 }
 
 .offer {
