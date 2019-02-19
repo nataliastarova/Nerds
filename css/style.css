@@ -729,7 +729,7 @@ a {
 /*}*/
 
 header {
-  outline: 1px dotted red;
+  /*outline: 1px dotted red;*/
 }
 
 .main-header {
@@ -749,7 +749,7 @@ header {
   padding: 0;
   /*padding-top: 50px;*/
   /* Временно для сетки */
-  outline: 1px solid orange;
+  /*outline: 1px solid orange;*/
   /*min-height: 120px;*/
 }
 .container {
@@ -789,14 +789,14 @@ header {
   list-style: none;
 
   /* Временно для сетки */
-  /*min-height: 70px;*/
-  outline: 1px solid orange;
+  /*!*min-height: 70px;*!*/
+  /*outline: 1px solid orange;*/
 }
 
 .site-navigation li {
   margin-right: 46px;
 
-  outline: 1px solid yellow;
+  /*outline: 1px solid yellow;*/
 }
 
 .site-navigation li:last-child {
@@ -811,7 +811,7 @@ header {
   list-style: none;
   /* Временно для сетки */
   /*min-height: 70px;*/
-  outline: 1px solid orange;
+  /*outline: 1px solid orange;*/
 }
 
 .user-navigation li {
@@ -822,7 +822,7 @@ header {
 
 /*MAIN*/
 .main {
-  outline: 1px dotted red;
+  /*outline: 1px dotted red;*/
 }
 
 .main-slider {
@@ -836,7 +836,7 @@ header {
 
   min-height: 350px;
   list-style: none;
-  outline: 1px solid orange;
+  /*outline: 1px solid orange;*/
   border-bottom: 2px solid #eeeeee;
 }
 
@@ -845,7 +845,7 @@ header {
   margin: 0;
   padding: 0;
   min-height: 350px;
-  outline: 1px solid yellow;
+  /*outline: 1px solid yellow;*/
 }
 
 .feature-item {
@@ -853,7 +853,7 @@ header {
   /*flex-direction: column;*/
   margin: 0;
   padding: 0;
-  outline: 1px solid green;
+  /*outline: 1px solid green;*/
 }
 
 .feature-item h3 {
@@ -922,7 +922,7 @@ header {
   margin-bottom: 48px;
 
   list-style: none;
-  outline: 1px solid orange;
+  /*outline: 1px solid orange;*/
   border-bottom: 2px solid #eeeeee;
 }
 
@@ -932,7 +932,7 @@ header {
   padding: 0;
   margin: 0;
   margin-right: 140px;
-  outline: 1px solid yellow;
+  /*outline: 1px solid yellow;*/
 }
 
 .what-we-can h3 {
@@ -961,7 +961,7 @@ header {
   margin: 0;
   margin-top: 25px;
   padding-left: 35px;
-  outline: 1px solid green;
+  /*outline: 1px solid green;*/
 }
 
 .orders-list li::before {
@@ -979,7 +979,7 @@ header {
   padding-right: 5px;
   margin: 0;
   margin-bottom: 23px;
-  outline: 1px solid blue;
+  /*outline: 1px solid blue;*/
 }
 
 .our-qualities {
@@ -988,7 +988,7 @@ header {
   padding: 0;
   margin: 0;
 
-  outline: 1px solid yellow;
+  /*outline: 1px solid yellow;*/
 }
 
 .qualities-title {
@@ -1032,7 +1032,7 @@ header {
   padding: 0;
   margin: 0;
   margin-bottom: 80px;
-  outline: 1px solid orange;
+  /*outline: 1px solid orange;*/
   border-bottom: 2px solid #eeeeee;
 }
 
@@ -1041,7 +1041,7 @@ header {
   display: flex;
   padding: 0;
   margin: 0;
-  outline: 1px solid yellow;
+  /*outline: 1px solid yellow;*/
 }
 
 .partners-list li {
@@ -1050,7 +1050,7 @@ header {
   width: 260px;
   margin-top: 45px;
   box-sizing: border-box;
-  outline: 1px solid green;
+  /*outline: 1px solid green;*/
 
 
 }
@@ -1123,7 +1123,7 @@ header {
 .map {
   position: relative;
   height: 420px;
-  outline: 2px solid #a82145;
+  /*outline: 2px solid #a82145;*/
   background-image: url(../img/map.jpg);
 }
 
@@ -1186,7 +1186,7 @@ header {
   padding: 0;
   padding-bottom: 47px;
 
-  outline: 1px solid red;
+  /*outline: 1px solid red;*/
 }
 
 .footer-social {
@@ -1195,7 +1195,7 @@ header {
   margin: 0px;
   margin-right: 20px;
   padding-top: 70px;
-  outline: 1px solid orange;
+  /*outline: 1px solid orange;*/
 }
 
 .footer-social-list {
@@ -1203,12 +1203,12 @@ header {
 
   padding: 0;
   margin: 0;
-  outline: 1px solid yellow;
+  /*outline: 1px solid yellow;*/
 }
 
 .footer-social-list li {
 
-  outline: 1px solid green;
+  /*outline: 1px solid green;*/
   box-sizing: border-box;
   width: 78px;
   height: 78px;
@@ -1292,7 +1292,7 @@ header {
   display: block;
   width: 960px;
   box-shadow: 0 20px 40px 0 rgba(0,0,0,.75);
-  outline: 1px dotted red;
+  /*outline: 1px dotted red;*/
 }
 
 .write-us-form {
@@ -1305,7 +1305,7 @@ header {
   padding-right: 100px;
   padding-bottom: 85px;
   padding-left: 100px;
-  outline: 1px dotted orange;
+  /*outline: 1px dotted orange;*/
 }
 
 .write-us-title {
@@ -1329,7 +1329,7 @@ header {
   padding: 0;
   margin-top: 50px;
   margin-bottom: 37px;
-  outline: 1px dotted yellow;
+  /*outline: 1px dotted yellow;*/
 }
 
 .feedback-item {
@@ -1338,14 +1338,14 @@ header {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  outline: 1px dotted green;
+  /*outline: 1px dotted green;*/
 }
 
 .login-wrapper p {
   width: 360px;
   padding: 0;
   margin: 0;
-  outline: 1px dotted green;
+  /*outline: 1px dotted green;*/
 }
 
 .login-wrapper p:first-child {
