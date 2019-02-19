@@ -37,7 +37,7 @@
           <!-- Здесь будет форма -->
           <form class="filter" method="get" action="https://echo.htmlacademy.ru">
             <fieldset class="filter-item">
-              <legend>СТОИМОСТЬ:</legend>
+              <legend>Стоимость:</legend>
               <div class="range-filter">
                 <div class="range-controls">
                   <div class="scale">
@@ -55,24 +55,24 @@
             </fieldset>
 
             <fieldset>
-              <legend>СЕТКА:</legend>
+              <legend>Сетка:</legend>
               <ul>
                 <li class="filter-option">
-                  <input class=" filter-input filter-input-radio" type="radio" name="product-type" value="adaptive" id="filter-adaptive" checked>
-                  <label for="filter-adaptive">Адаптивная</label>
+                  <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-type" value="adaptive" id="filter-adaptive" checked>
+                  <label class="filter-radio" for="filter-adaptive">Адаптивная</label>
                 </li>
                 <li class="filter-option">
                   <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-type" value="fixed" id="filter-fixed">
-                  <label for="filter-fixed">Фиксированная</label>
+                  <label class="filter-radio" for="filter-fixed">Фиксированная</label>
                 </li>
                 <li class="filter-option">
-                  <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-type" value="stretch" id="filter-stretch">
-                  <label for="filter-stretch">Резиновая</label>
+                  <input class="visually-hidden filter-input filter-input-radio"  type="radio" name="product-type" value="stretch" id="filter-stretch">
+                  <label class="filter-radio" for="filter-stretch">Резиновая</label>
                 </li>
               </ul>
             </fieldset>
             <fieldset>
-              <legend>ОСОБЕННОСТИ:</legend>
+              <legend>Особенности:</legend>
               <ul>
                 <li class="filter-option">
                   <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="filter-slider" id="filter-slider" checked>
@@ -102,11 +102,19 @@
         <section class="catalog">
           <h2 class="visually-hidden">Каталог товаров</h2>
 
-          <form class="filter" method="get" action="https://echo.htmlacademy.ru">
-            <fieldset>
-              <legend>СОРТИРОВАТЬ:</legend>
-            </fieldset>
-          </form>
+          <section class="catalog-filter">
+            <span class="catalog-sort-title">Сортировать:</span>
+            <ul class="catalog-sort">
+              <li class="catalog-sort-item catalog-sort-item-active"><a href="">По цене</a></li>
+              <li class="catalog-sort-item"><a href="#">По типу</a></li>
+              <li class="catalog-sort-item"><a href="#">По названию</a></li>
+            </ul>
+            <div class="catalog-toggle-list">
+              <div class="catalog-toggle catalog-toggle-down"></div>
+              <div class="catalog-toggle catalog-toggle-up"></div>
+            </div>
+          </section>
+
           <ul class="catalog-list">
             <li class="catalog-item">
               <h3 class="visually-hidden">Информационный сайт  для туристов Sedona</h3>
