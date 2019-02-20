@@ -721,6 +721,38 @@ img {
   list-style: none;
 }
 
+.pagination-item {
+  display: block;
+  box-sizing: border-box;
+  padding-top: 14px;
+  margin-right: 11px;
+  height: 50px;
+  width: 50px;
+
+  text-align: center;
+  border-radius: 2px;
+  background-color: rgba(213, 213, 213, 0.4);
+  color: #000000;
+}
+
+
+.pagination-item-current {
+  display: block;
+  box-sizing: border-box;
+  padding-top: 12px;
+  margin-right: 11px;
+  height: 50px;
+  width: 50px;
+
+  text-align: center;
+  background-color: #ffffff;
+  border: 3px solid #dbdbdb;
+}
+
+.pagination-item-next {
+  width: 260px;
+}
+
 .pagination-item a {
   font-size: 16px;
   line-height: 18px;
@@ -728,20 +760,25 @@ img {
   text-transform: uppercase;
   color: #000000;
 
-  background-color: #eeeeee ;
+  background-color: transparent ;
 }
 
-.pagination-item a:hover,
-.pagination-item a:focus,
-.pagination-item a:active {
-  background-color: #dfdfdf;
+.pagination-item:hover,
+.pagination-item:focus {
+  background-color: rgba(213, 213, 213, 0.6);
+  border: none;
+}
+
+.pagination-item:active {
+  background-color: rgba(213, 213, 213, 1);
+  color: #959595;
+  border: none;
+  box-shadow: inset 0px 3px 0px rgba(0,0,0,0.1)
 }
 
 .pagination-item-current a {
   color: #000000;
-
-  background-color: #ffffff;
-  border: 3px solid #dbdbdb;
+  background-color: transparent;
 }
 
 /*КОНТАКТЫ*/
@@ -778,6 +815,9 @@ img {
 }
 
 /*MODAL WRITE_US*/
+
+
+
 .write-us-title {
   font-size: 45px;
   line-height: 45px;
@@ -805,6 +845,7 @@ img {
   font-weight: 700;
   color: #000000;
 }
+
 .feedback-item input,
 .feedback-item textarea {
   font-size: 16px;
@@ -1334,6 +1375,8 @@ header {
   padding-right: auto;
   margin: 0px;
   margin-right: 12px;
+
+  text-align: center;
 }
 
 .vk-button {
@@ -1341,8 +1384,8 @@ header {
   margin: 0;
   padding-top: 32px;
   padding-bottom: 32px;
-  padding-left: 27px;
-  padding-right: 26px;
+  /*padding-left: 27px;*/
+  /*padding-right: 26px;*/
 }
 
 .fb-button {
@@ -1350,8 +1393,8 @@ header {
   margin: 0;
   padding-top: 28px;
   padding-bottom: 29px;
-  padding-left: 34px;
-  padding-right: 33px;
+  /*padding-left: 34px;*/
+  /*padding-right: 33px;*/
 }
 
 .insta-button {
@@ -1359,8 +1402,8 @@ header {
   margin: 0;
   padding-top: 28px;
   padding-bottom: 29px;
-  padding-left: 27px;
-  padding-right: 26px;
+  /*padding-left: 27px;*/
+  /*padding-right: 26px;*/
 }
 
 .footer-social-list li:hover {
@@ -1368,7 +1411,8 @@ header {
 
 }
 
-.footer-social-list li:focus {
+.footer-social-list li:focus,
+.footer-social-list li:active {
   background-color: #d7373b;
   box-shadow: inset 0px 3px 0px rgba(0,0,0,0.3);
 }
@@ -1421,6 +1465,10 @@ header {
   padding-bottom: 85px;
   padding-left: 100px;
   /*outline: 1px dotted orange;*/
+}
+
+.modal {
+  display: none;
 }
 
 .write-us-title {
@@ -1511,6 +1559,7 @@ header {
   justify-content: space-between;
   margin: 0;
   padding: 0;
+  margin-bottom:  26px;
 }
 
 .filters {
@@ -1559,7 +1608,7 @@ header {
   display: flex;
   margin: 0;
   padding: 0;
-  padding-left: 400px;
+  padding-left: 399px;
   margin-bottom: 27px;
 }
 
