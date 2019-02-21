@@ -27,6 +27,10 @@ img {
 }
 
 .button {
+  display: block;
+  width: 240px;
+  padding: 13px 0;
+
   font: inherit;
   line-height: 18px;
   font-weight: 500;
@@ -41,11 +45,11 @@ img {
   border: none;
 }
 
+.button:focus,
 .button:hover {
   background-color: #e74246;
 }
 
-.button:focus,
 .button:active {
   color: #e07476;
   background-color: #d7373b;
@@ -98,21 +102,135 @@ img {
 .main-slider {
   background-color: #eeeeee;
 }
+.main-slider {
+  position: relative;
+}
+
+
+
+.slider-wrapper  {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  margin-bottom: 80px;
+  box-sizing: border-box;
+}
+
+.slider-control {
+  position: absolute;
+  left: 50%;
+  bottom: 104px;
+  z-index: 100;
+
+  width: 160px;
+  height: 18px;
+
+  text-align: center;
+  font-size: 0;
+  transform: translateX(-50%);
+}
+
+.slider-control i {
+  position: relative;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  padding: 8px;
+
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+
+.slider-control i::after {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  z-index: 1;
+
+  width: 18px;
+  height: 18px;
+
+  background: #ffffff;
+  border-radius: 50%;
+}
+
+.slider-control .active::before {
+  content: "";
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 2;
+
+  width: 4px;
+  height: 4px;
+  margin: -4px;
+
+  background-color: inherit;
+  border: 2px solid #c1c1c1;
+  border-radius: 50%;
+
+}
 
 .slider-list {
+  margin: 0;
+  padding: 0;
+
   list-style: none;
 }
 
 .slider-item {
   text-align: left;
+
 }
 
-.slider-item-item h3 {
+.slider-item h3 {
+  max-width: 600px;
+  margin: 0;
+  margin-bottom: 27px;
+
   font-size: 55px;
   line-height: 55px;
   font-weight: 500;
   color: #000000;
 }
+
+.slider-item p {
+  max-width: 430px;
+  margin: 0;
+  margin-bottom: 38px;
+}
+
+.slider-item {
+  display: none;
+  padding: 78px 0 80px 0;
+}
+
+.slider-item:nth-child(1) {
+  display: block;
+}
+
+.slider-item:nth-child(1) {
+  background-image: url("../img/slide1.png");
+  background-repeat: no-repeat;
+  background-position: 93% 18px;
+}
+
+.slider-item:nth-child(2) {
+  background-image: url("../img/slide2.png");
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+}
+
+.slider-item:nth-child(3) {
+  background-image: url("../img/slide3.png");
+  background-repeat: no-repeat;
+  background-position: 100% 20px;
+}
+
+
 
 /*НАШИ ПРЕИМУЩЕСТВА*/
 .feature-list {
@@ -765,8 +883,14 @@ img {
 
 .pagination-item:hover,
 .pagination-item:focus {
+
   background-color: rgba(213, 213, 213, 0.6);
   border: none;
+}
+
+.pagination-item-current:hover,
+.pagination-item-current:focus {
+  padding-top: 15px;
 }
 
 .pagination-item:active {
@@ -981,8 +1105,7 @@ header {
   /*outline: 1px dotted red;*/
 }
 
-.main-slider {
-}
+
 
 .advantages {
   margin: 0;
