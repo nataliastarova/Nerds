@@ -182,7 +182,7 @@ img {
 }
 
 .slider-item {
-  text-align: left;
+  /*text-align: left;*/
 
 }
 
@@ -201,6 +201,8 @@ img {
   max-width: 430px;
   margin: 0;
   margin-bottom: 38px;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .slider-item {
@@ -230,7 +232,10 @@ img {
   background-position: 100% 20px;
 }
 
-
+.slider-button {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
 
 /*НАШИ ПРЕИМУЩЕСТВА*/
 .feature-list {
@@ -857,7 +862,7 @@ img {
 .pagination-item-current {
   display: block;
   box-sizing: border-box;
-  padding-top: 12px;
+  padding-top: 11px;
   margin-right: 11px;
   height: 50px;
   width: 50px;
@@ -883,17 +888,18 @@ img {
 
 .pagination-item:hover,
 .pagination-item:focus {
-
+  padding-top: 14px;
   background-color: rgba(213, 213, 213, 0.6);
   border: none;
 }
 
 .pagination-item-current:hover,
 .pagination-item-current:focus {
-  padding-top: 15px;
+  padding-top: 14px;
 }
 
 .pagination-item:active {
+  padding-top: 14px;
   background-color: rgba(213, 213, 213, 1);
   color: #959595;
   border: none;
@@ -1100,6 +1106,17 @@ header {
   padding-left: 46px;
 }
 
+.cart {
+  position: relative;
+}
+
+.cart-icon {
+  position: absolute;
+  top: 2px;
+  left: -40px;
+  height: 15px;
+  width: 15px;
+}
 /*MAIN*/
 .main {
   /*outline: 1px dotted red;*/
@@ -1110,7 +1127,7 @@ header {
 .advantages {
   margin: 0;
   padding: 0;
-  padding-bottom: 80px;
+  padding-bottom: 78px;
   margin-bottom: 38px;
 
   min-height: 350px;
@@ -1198,11 +1215,10 @@ header {
   display: flex;
   padding: 0;
   margin: 0;
-  margin-bottom: 48px;
+  margin-bottom: 50px;
 
   list-style: none;
   /*outline: 1px solid orange;*/
-  border-bottom: 2px solid #eeeeee;
 }
 
 .what-we-can {
@@ -1218,7 +1234,7 @@ header {
   padding: 0;
   margin: 0;
   padding-top: 35px;
-  margin-bottom: 30px;
+  margin-bottom: 32px;
 }
 
 .what-we-can p {
@@ -1282,7 +1298,7 @@ header {
   display: flex;
   padding: 0;
   margin: 0;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .qualities-percentages-list li {
@@ -1291,6 +1307,7 @@ header {
   margin-right: 20px;
 }
 .qualities-percentages-list span {
+  vertical-align: super;
   font-size: 28px;
 }
 
@@ -1298,7 +1315,7 @@ header {
   display: flex;
   padding: 0;
   margin: 0;
-  margin-top: 13px;
+  margin-top: 20px;
 }
 
 .qualities-list li {
@@ -1311,7 +1328,9 @@ header {
   padding: 0;
   margin: 0;
   margin-bottom: 80px;
+  padding-bottom: 30px;
   /*outline: 1px solid orange;*/
+  border-top: 2px solid #eeeeee;
   border-bottom: 2px solid #eeeeee;
 }
 
@@ -1330,10 +1349,7 @@ header {
   margin-top: 45px;
   box-sizing: border-box;
   /*outline: 1px solid green;*/
-
-
 }
-
 
 .html-academy  {
   margin: 0;
@@ -1446,7 +1462,7 @@ header {
   margin:0;
   padding: 0;
   margin-top: 16px;
-  margin-bottom: 35px;
+  margin-bottom: 33px;
   padding-right: 15px;
 }
 
@@ -1473,7 +1489,7 @@ header {
   padding: 0px;
   margin: 0px;
   margin-right: 20px;
-  padding-top: 70px;
+  padding-top: 65px;
   /*outline: 1px solid orange;*/
 }
 
@@ -1553,7 +1569,7 @@ header {
   display: block;
   margin: 0;
   padding: 0;
-  padding-top: 75px;
+  padding-top: 72px;
 }
 
 .offer h3 {
